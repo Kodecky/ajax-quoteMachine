@@ -5,21 +5,48 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lightskyblue;
+  background-color: #5cb3f2;
   text-align: center;
 }
 
 h1 {
   color: white;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: 400;
+  margin-top: 80px;
 }
 
-button {
+.box {
+  width: 80%;
+  min-height: 200px;
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+}
+
+.trigger {
   display: block;
   margin: 30px auto;
   color: white;
-  background-color: lightskyblue;
-  border: 1px solid white;
+  background-color: #5cb3f2;
+  border: 1px dotted white;
   border-radius: 5px;
   width: 300px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tweet {
+  text-decoration: none;
+  display: block;
+  margin: 30px auto;
+  color: white;
+  background-color: #5cb3f2;
+  border: 1px dotted white;
+  border-radius: 5px;
+  width: 300px;
+  padding: 5px;
+  font-size: 14px;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
